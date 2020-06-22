@@ -2282,7 +2282,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Fglyphicons-halflings.png?v=1592688358360");
+  background-image: url("https://podofmadness.com/assets/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -2306,7 +2306,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Fglyphicons-halflings-white.png?v=1592688358544");
+  background-image: url("https://podofmadness.com/assets/glyphicons-halflings-white.png");
 }
 
 .icon-glass {
@@ -6206,7 +6206,7 @@ blink {
 
 body {
   -webkit-font-smoothing: none;
-  background: #0000ff url('https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Fmicrofab.gif?v=1592688358093') top left;
+  background: #0000ff url('https://podofmadness.com/assets/microfab.gif') top left;
 }
 
 .navbar {
@@ -6226,7 +6226,7 @@ body {
 }
 
 .btn-primary {
-  background: #000000 url('../img/rainbow.gif') top left;
+  background: #000000 url('https://podofmadness.com/assets/rainbow.gif') top left;
 }
 
 legend {
@@ -6235,7 +6235,7 @@ legend {
 }
 
 .control-group.error input {
-  background: #000000 url('../img/flames.gif') 0 -30px repeat-x;
+  background: #000000 url('https://podofmadness.com/assets/flames.gif') 0 -30px repeat-x;
 }
 
 .dropdown-menu {
@@ -6298,7 +6298,7 @@ legend {
 
 .hero-unit,
 .well {
-  background: #000000 url('../img/stars.gif') top left;
+  background: #000000 url('https://podofmadness.com/assets/stars.gif') top left;
 }
 
 .breadcrumb {
