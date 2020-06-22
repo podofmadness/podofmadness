@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<channel>
@@ -19,8 +18,7 @@
 			<link><![CDATA[https://podofmadness.com/]]></link>
 		</image>
 		<itunes:author>Jordan Gass-Poore'</itunes:author>
-		<itunes:category text="Entertainment">
-			<itunes:category text="Movies & TV"/>
+		<itunes:category text="TV &amp; Film">
 		</itunes:category>
 		<itunes:image href="https://raw.githubusercontent.com/podofmadness/podofmadness/master/assets/5d2c1cf6-10ef-49ca-962d-32f316d331da.image.png" />
 		<itunes:explicit>clean</itunes:explicit>
@@ -48,7 +46,7 @@
 			<itunes:explicit>clean</itunes:explicit>
 			<itunes:keywords />
 			<itunes:subtitle><![CDATA[Life is Mad.]]></itunes:subtitle>
-			<itunes:episodeType>episode</itunes:episodeType>
+			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 	</channel>
 </rss>
