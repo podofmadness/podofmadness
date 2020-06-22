@@ -13,14 +13,14 @@
 		<managingEditor>jgasspoore@gmail.com (jgasspoore@gmail.com)</managingEditor>
 		<itunes:summary><![CDATA[A horror-comedy podcast that makes about as much sense as the genre itself.]]></itunes:summary>
 		<image>
-			<url>https://raw.githubusercontent.com/podofmadness/podofmadness/master/assets/5d2c1cf6-10ef-49ca-962d-32f316d331da.image.png</url>
+			<url>https://podofmadness.com/assets/logo-white-bg.png</url>
 			<title>Pod of Madness</title>
 			<link><![CDATA[https://podofmadness.com/]]></link>
 		</image>
 		<itunes:author>Jordan Gass-Poore'</itunes:author>
 		<itunes:category text="TV &amp; Film">
 		</itunes:category>
-		<itunes:image href="https://raw.githubusercontent.com/podofmadness/podofmadness/master/assets/5d2c1cf6-10ef-49ca-962d-32f316d331da.image.png" />
+		<itunes:image href="https://podofmadness.com/assets/logo-white-bg.png" />
 		<itunes:explicit>clean</itunes:explicit>
 		<itunes:owner>
 			<itunes:name><![CDATA[Jordan Gass-Poore']]></itunes:name>
@@ -38,7 +38,7 @@
 			<pubDate>Mon, 22 Jun 2020 01:27:01 +0000</pubDate>
 			<guid isPermaLink="false"><![CDATA[episode01]]></guid>
 			<link><![CDATA[https://podofmadness.com]]></link>
-			<itunes:image href="https://raw.githubusercontent.com/podofmadness/podofmadness/master/assets/5d2c1cf6-10ef-49ca-962d-32f316d331da.image.png" />
+			<itunes:image href="https://podofmadness.com/assets/logo-white-bg.png" />
 			<description><![CDATA[<p>Subscribe to Pod of Madness in your podcast app or go to podofmadness.com and click on Subscribe for instructions..</p>]]></description>
 			<content:encoded><![CDATA[<p>Subscribe to The Evolving Faith Podcast in your podcast app or go to evolvingfaith.com and click on Podcast for instructions. And while you're there sign up for our newsletter so you don't miss a thing.</p>]]></content:encoded>
 			<enclosure length="3621454" type="audio/mpeg" url="https://github.com/podofmadness/podofmadness/blob/master/assets/E1S1-PodofMadness_01.mp3?raw=true" />
