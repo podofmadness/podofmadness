@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<channel>
-		<atom:link href="https://podofmadness.com/feed.rss" rel="self" type="application/rss+xml"/>
+		<atom:link href="https://podofmadness.com/feed.xml" rel="self" type="application/rss+xml"/>
 		<title>Pod of Madness</title>
 		<pubDate>Mon, 22 Jun 2020 09:27:01 +0000</pubDate>
 		<lastBuildDate>Mon, 22 Jun 2020 10:04:52 +0000</lastBuildDate>
@@ -29,7 +29,7 @@
 		<description><![CDATA[Subscribe to Pod of Madness in your podcast app or go to podofmadness.com and click on Subscribe for instructions.]]></description>
 		<itunes:subtitle><![CDATA[Life is Mad]]></itunes:subtitle>
 		<itunes:type>episodic</itunes:type>
-			<itunes:new-feed-url>https://podofmadness.com/feed.rss</itunes:new-feed-url>
+			<itunes:new-feed-url>https://podofmadness.com/feed.xml</itunes:new-feed-url>
 		
 
 
