@@ -21,7 +21,7 @@ header.jumbotron.subhead {
 /* the CSS */
 .toaster {
   position: absolute;
-  background: url(https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Ftoaster-sprite.gif?v=1592686895777);
+  background: url(https://podofmadness.com/assets/toaster-sprite.gif);
   width: 64px;
   height: 64px;
 }
@@ -139,7 +139,7 @@ audio {
 /* Start http://www.cursors-4u.com */
 * {
   cursor: url(
-      https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Fcursor-_1_.png?v=1592781870997
+      https://podofmadness.com/assets/cursor-_1_.png
     ),
     auto !important;
 } /* End http://www.cursors-4u.com */
