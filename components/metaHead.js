@@ -102,7 +102,12 @@ export default function MetaHead({
 						: "https://podofmadness.com/assets/logo-white-bg.png"
 				}
 			/>
-
+			<link
+				rel="alternate"
+				type="application/rss+xml"
+				title="RSS Feed for podofmadness.com"
+				href="/feed.xml"
+			/>
 			<script key="meta-ld-json" type="application/ld+json">
 				{jsonLDAsString}
 			</script>
