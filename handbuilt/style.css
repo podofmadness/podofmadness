@@ -1,0 +1,37 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* the CSS */
+.toaster {
+  position: absolute;
+  background: url(https://cdn.glitch.com/91633d62-0845-493e-acf6-d2a165ce70da%2Ftoaster-sprite.gif?v=1592686895777);
+  width: 64px;
+  height: 64px;
+}
+
+/**
+ * Our image is 256px wide so this rule tells the image to shift
+ * to the right the full length of the image.
+ */
+@keyframes flap {
+  from { background-position:  0px; }
+  to { background-position: -256px; }
+}
+
+/* This runs the animation named &#39;flap&#39; over a period of 0.4 sec. */
+.animated {
+  animation: flap 0.4s;
+}
+
+.animated {
+  animation: flap .4s steps(4) infinite alternate;
+}
