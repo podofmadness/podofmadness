@@ -18,7 +18,11 @@ export default function Home({ allPostsData, allSocialData, buildDate }) {
 		var postList = allPostsData.map((aPost) => {
 			return (
 				<li>
-					<a href="#">{aPost.title}</a>
+					<Link href={`/posts/${aPost.id}`}>
+						<a title="Download podcast">
+							<span>{aPost.title}</span>
+						</a>
+					</Link>
 				</li>
 			)
 		})
@@ -61,11 +65,8 @@ export default function Home({ allPostsData, allSocialData, buildDate }) {
 				<Row>
 					<ColumnSpan spanCount="12">
 						<h4>
-							A horror-comedy podcast that makes about as much sense as the
-							genre itself.
+							Pod of Madness is a horror-comedy show that proves life is mad.
 						</h4>
-
-						<p>Horror is not homogeneous.</p>
 						<hr />
 					</ColumnSpan>
 				</Row>

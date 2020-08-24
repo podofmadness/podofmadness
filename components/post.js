@@ -26,7 +26,9 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 			{newPrompt}
 			<Link href={`/posts/${post.id}`}>
 				<a itemProp="url" title="Download podcast" className="title-link">
-					<span itemProp="name">{post.title}</span>
+					<span itemProp="name">
+						{post.title} {post.subtitle ? ": " + post.subtitle : ""}
+					</span>
 				</a>
 			</Link>
 		</h3>
@@ -41,10 +43,23 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 			<br />
 		</React.Fragment>
 	)
+	const description = isFront ? (
+		<p
+			itemProp="description"
+			dangerouslySetInnerHTML={{ __html: post.description }}
+		></p>
+	) : (
+		<div
+			itemProp="description"
+			dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+		></div>
+	)
+	const classNameOfPost =
+		"episode__entry" + (isFront ? " front-post" : " full-post")
 	return (
 		<>
 			<div
-				className="episode__entry"
+				className={classNameOfPost}
 				itemScope
 				itemType="http://schema.org/PodcastEpisode"
 			>
@@ -66,7 +81,7 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 							Download
 						</a>
 					</p>
-					<p itemProp="description">{post.description}</p>
+					{description}
 				</div>
 			</div>
 			{frontSocial}
