@@ -7,7 +7,9 @@ function timeDifference(current, previous) {
 	var msPerYear = msPerDay * 365
 
 	var elapsed = current - previous
-
+	if (elapsed < 0) {
+		return "1 second ago"
+	}
 	if (elapsed < msPerMinute) {
 		return Math.round(elapsed / 1000) + " seconds ago"
 	} else if (elapsed < msPerHour) {

@@ -4,7 +4,7 @@ subtitle: Forrest Has The Coronavirus, Discusses Zombie Movies
 date: 2020-03-29
 minutesRequired: 8
 duration: 7:34
-episodeNumber: 1
+episodeNumber: 0.5
 season: 1
 contentUrl: https://podofmadness.com/assets/E1S1-PodofMadness_01.mp3
 localFile: /assets/E1S1-PodofMadness_01.mp3

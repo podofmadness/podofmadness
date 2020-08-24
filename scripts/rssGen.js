@@ -7,8 +7,8 @@ import siteData from "../lib/siteData"
 var xml = require("xml")
 
 function dateSortDesc(a, b) {
-	const date1 = new Date(a.data.frontmatter.date)
-	const date2 = new Date(b.data.frontmatter.date)
+	const date1 = new Date(a.metadata.date)
+	const date2 = new Date(b.metadata.date)
 	if (date1 > date2) return -1
 	if (date1 < date2) return 1
 	return 0
@@ -25,7 +25,7 @@ function generate() {
 		lastBuildDate: siteDataObj.buildDate,
 		language: "en",
 		managingEditor: "jordan@podofmadness.com (Jordan Gass-Poore')",
-		image_url: siteDataObj.imageUrl,
+		image_url: siteDataObj.imageUrlLarge,
 		// author: siteDataObj.author,
 		ttl: "60",
 		custom_namespaces: {
@@ -36,7 +36,7 @@ function generate() {
 			{ "itunes:author": siteDataObj.author },
 			{
 				"itunes:summary":
-					"A horror-comedy podcast that makes about as much sense as the genre itself. Horror is not homogeneous.",
+					"Pod of Madness is a horror-comedy show that proves life is mad.",
 			},
 			{
 				"itunes:owner": [
@@ -47,7 +47,7 @@ function generate() {
 			{
 				"itunes:image": {
 					_attr: {
-						href: siteDataObj.imageUrl,
+						href: siteDataObj.imageUrlLarge,
 					},
 				},
 			},
@@ -105,7 +105,7 @@ function generate() {
 }
 	 */
 
-	previewItems.sort(dateSortDesc).map((postData) => {
+	previewItems.map((postData) => {
 		let keywords = []
 		try {
 			let spacedKeywords = postData.keywords.split(",")
@@ -138,7 +138,9 @@ function generate() {
 				{
 					"itunes:image": {
 						_attr: {
-							href: siteDataObj.imageUrl,
+							href: postData.hasOwnProperty("featuredImage")
+								? postData.featuredImage
+								: siteDataObj.imageUrlLarge,
 						},
 					},
 				},
