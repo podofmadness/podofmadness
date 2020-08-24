@@ -81,7 +81,7 @@ export default function Home({ allPostsData, allSocialData, buildDate }) {
 						/>
 					</ColumnSpan>
 					<ColumnSpan spanCount="4">
-						<h4>Listen to our Social SoundBites:</h4>
+						<h4>Listen to our social sound bites:</h4>
 						<ATweet twitterUrl={allSocialData[0].socialPrompt} />
 					</ColumnSpan>
 					<ColumnSpan spanCount="2">{morePosts}</ColumnSpan>
