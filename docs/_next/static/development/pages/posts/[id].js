@@ -1043,12 +1043,12 @@ function SocialPrompt(_ref) {
       lineNumber: 6,
       columnNumber: 4
     }
-  }, "Join us on Twitter for this Episode's Prompt"), __jsx(_components_ATweet__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Join the conversation on Twitter for this Episode"), __jsx(_components_ATweet__WEBPACK_IMPORTED_MODULE_1__["default"], {
     twitterUrl: tweetUrl,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 9,
       columnNumber: 4
     }
   }));
