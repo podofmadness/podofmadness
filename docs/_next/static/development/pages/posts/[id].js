@@ -425,6 +425,10 @@ function timeDifference(current, previous) {
   var msPerYear = msPerDay * 365;
   var elapsed = current - previous;
 
+  if (elapsed < 0) {
+    return "1 second ago";
+  }
+
   if (elapsed < msPerMinute) {
     return Math.round(elapsed / 1000) + " seconds ago";
   } else if (elapsed < msPerHour) {
@@ -465,7 +469,7 @@ function Audio(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 4
     }
   }, __jsx("source", {
@@ -474,7 +478,7 @@ function Audio(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 5
     }
   })), __jsx("small", {
@@ -484,7 +488,7 @@ function Audio(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 51,
       columnNumber: 4
     }
   }, relativeTime), __jsx("small", {
@@ -494,7 +498,7 @@ function Audio(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 58,
       columnNumber: 4
     }
   }, datetimeString));
@@ -892,18 +896,18 @@ function Post(_ref) {
       lineNumber: 29,
       columnNumber: 6
     }
-  }, post.title)))) : __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  }, post.title, " ", post.subtitle ? ": " + post.subtitle : "")))) : __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 3
     }
   }, __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 4
     }
   }, newPrompt, __jsx("span", {
@@ -911,32 +915,56 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 5
     }
   }, post.title)), __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 4
     }
   }, post.subtitle), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 4
     }
   }));
+  var description = isFront ? __jsx("p", {
+    itemProp: "description",
+    dangerouslySetInnerHTML: {
+      __html: post.description
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 3
+    }
+  }) : __jsx("div", {
+    itemProp: "description",
+    dangerouslySetInnerHTML: {
+      __html: post.contentHtml
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 3
+    }
+  });
+  var classNameOfPost = "episode__entry" + (isFront ? " front-post" : " full-post");
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    className: "episode__entry",
+    className: classNameOfPost,
     itemScope: true,
     itemType: "http://schema.org/PodcastEpisode",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 61,
       columnNumber: 4
     }
   }, headLine, __jsx("div", {
@@ -946,14 +974,14 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 67,
       columnNumber: 5
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 72,
       columnNumber: 6
     }
   }, __jsx(_audio__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -963,7 +991,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 73,
       columnNumber: 7
     }
   })), __jsx("p", {
@@ -971,7 +999,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 79,
       columnNumber: 6
     }
   }, __jsx("a", {
@@ -980,18 +1008,10 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 80,
       columnNumber: 7
     }
-  }, "Download")), __jsx("p", {
-    itemProp: "description",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 6
-    }
-  }, post.description))), frontSocial);
+  }, "Download")), description)), frontSocial);
 }
 
 /***/ }),

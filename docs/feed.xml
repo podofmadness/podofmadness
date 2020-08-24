@@ -4,12 +4,12 @@
         <description><![CDATA[Pod of Madness]]></description>
         <link>https://podofmadness.com</link>
         <image>
-            <url>https://podofmadness.com/assets/logo-white-bg.png</url>
+            <url>https://podofmadness.com/assets/pod-of-madness-logo-lg.png</url>
             <title>Pod of Madness</title>
             <link>https://podofmadness.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 16 Aug 2020 20:31:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2020 02:28:20 GMT</lastBuildDate>
         <atom:link href="https://podofmadness.com/feed.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 30 Jun 2020 10:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,12 +17,12 @@
         <ttl>60</ttl>
         <itunes:subtitle>Life is Mad.</itunes:subtitle>
         <itunes:author>Jordan Gass-Poore&apos;</itunes:author>
-        <itunes:summary>A horror-comedy podcast that makes about as much sense as the genre itself. Horror is not homogeneous.</itunes:summary>
+        <itunes:summary>Pod of Madness is a horror-comedy show that proves life is mad.</itunes:summary>
         <itunes:owner>
             <itunes:name>Jordan Gass-Poore&apos;</itunes:name>
             <itunes:email>jordan@podofmadness.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://podofmadness.com/assets/logo-white-bg.png"/>
+        <itunes:image href="https://podofmadness.com/assets/pod-of-madness-logo-lg.png"/>
         <itunes:explicit>no</itunes:explicit>
         <itunes:category text="TV &amp; Film">
             <itunes:category text="Film Interviews"/>
@@ -30,7 +30,31 @@
         <itunes:category text="Society &amp; Culture">
         </itunes:category>
         <item>
-            <title><![CDATA[Down With The Sickness: Forrest Has The Coronavirus, Discusses Zombie Movies]]></title>
+            <title><![CDATA[Twenty-Five Years Later And Still Haunted In The ‘Hood’]]></title>
+            <description><![CDATA[Jordan interviews Rusty Cundieff, co-writer/co-director of upcoming “Tales From The Hood 3: The Mouths of Babes & Demons”]]></description>
+            <link>https://podofmadness.com/posts/twenty-five-years-later-still-haunted-in-the-hood</link>
+            <guid isPermaLink="false">https://podofmadness.com/posts/twenty-five-years-later-still-haunted-in-the-hood</guid>
+            <category><![CDATA[horror]]></category>
+            <category><![CDATA[tales from the hood]]></category>
+            <category><![CDATA[race]]></category>
+            <category><![CDATA[Rusty Cundieff]]></category>
+            <category><![CDATA[Tales From The Hood 3]]></category>
+            <category><![CDATA[podcast]]></category>
+            <dc:creator><![CDATA[Jordan Gass-Poore']]></dc:creator>
+            <pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate>
+            <enclosure url="https://podofmadness.com/assets/S1E1-PodofMadness.mp3" length="49192990" type="audio/mpeg"/>
+            <itunes:author>Jordan Gass-Poore&apos;</itunes:author>
+            <content:encoded>&lt;p&gt;Tales From The Hood turns 25. Jordan Gass-Poore’, host of Pod of Madness, turns 30. &lt;/p&gt;
+&lt;p&gt;In the first episode of Pod of Madness, Jordan interviews Rusty Cundieff, the co-writer/co-director of the upcoming “Tales From The Hood 3: The Mouths of Babes and Demons,” according to the movie’s script (thanks, Rusty, for checking). &lt;/p&gt;
+&lt;p&gt;Her interview with Rusty touches on the cultural relevance of the original “Tales from the Hood,” 25 years later, as well as, the origins of the series and the upcoming third movie, which will be available on DVD sometime in October and air on the Syfy channel on Oct. 6 (but, you know, life is mad, so that air date may change. Keep an eye out for any updates on podofmadness.com). &lt;/p&gt;</content:encoded>
+            <itunes:image href="https://podofmadness.com/assets/pod-of-madness-logo-lg.png"/>
+            <itunes:duration>3081</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords>podcast</itunes:keywords>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title><![CDATA[Down With The Sickness]]></title>
             <description><![CDATA[Host Jordan Gass-Poore' discusses zombie movies with her friend, Forrest, who was diagnosed with the coronavirus.]]></description>
             <link>https://podofmadness.com/posts/down-with-the-sickness</link>
             <guid isPermaLink="false">https://podofmadness.com/posts/down-with-the-sickness</guid>
@@ -45,8 +69,8 @@
             <itunes:author>Jordan Gass-Poore&apos;</itunes:author>
             <content:encoded>&lt;p&gt;Host Jordan Gass-Poore&apos; discusses zombie movies with her friend,
 Forrest, who was diagnosed with the coronavirus.&lt;/p&gt;</content:encoded>
-            <itunes:image href="https://podofmadness.com/assets/logo-white-bg.png"/>
-            <itunes:duration>7:34</itunes:duration>
+            <itunes:image href="https://podofmadness.com/assets/pod-of-madness-logo-lg.png"/>
+            <itunes:duration>454</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>podcast</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>

@@ -7,8 +7,8 @@ import siteData from "../lib/siteData"
 var xml = require("xml")
 
 function dateSortDesc(a, b) {
-	const date1 = new Date(a.data.frontmatter.date)
-	const date2 = new Date(b.data.frontmatter.date)
+	const date1 = new Date(a.metadata.date)
+	const date2 = new Date(b.metadata.date)
 	if (date1 > date2) return -1
 	if (date1 < date2) return 1
 	return 0
@@ -105,7 +105,7 @@ function generate() {
 }
 	 */
 
-	previewItems.sort(dateSortDesc).map((postData) => {
+	previewItems.map((postData) => {
 		let keywords = []
 		try {
 			let spacedKeywords = postData.keywords.split(",")
