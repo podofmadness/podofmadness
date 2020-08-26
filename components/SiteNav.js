@@ -38,9 +38,27 @@ export default function SiteNav() {
 										<li>
 											<a
 												target="_blank"
+												href="https://podcasts.apple.com/us/podcast/pod-of-madness/id1528921215"
+											>
+												Apple Podcasts
+											</a>
+										</li>
+										<li className="divider"></li>
+										<li>
+											<a
+												target="_blank"
+												href="https://open.spotify.com/show/1BkfF4HWGVg5MdlfpeZIrb"
+											>
+												Spotify
+											</a>
+										</li>
+										<li className="divider"></li>
+										<li>
+											<a
+												target="_blank"
 												href="https://soundcloud.com/pod-of-madness"
 											>
-												Soundcloud
+												SoundCloud
 											</a>
 										</li>
 									</ul>

@@ -39,7 +39,7 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 
 				<span itemProp="name">{post.title}</span>
 			</h1>
-			<h2>{post.subtitle}</h2>
+			<h2>{post.subtitle ? post.subtitle : post.description}</h2>
 			<br />
 		</React.Fragment>
 	)
@@ -54,6 +54,19 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 			dangerouslySetInnerHTML={{ __html: post.contentHtml }}
 		></div>
 	)
+	const transcript =
+		isFront || !post.hasOwnProperty("transcriptHtml") ? (
+			""
+		) : (
+			<React.Fragment>
+				<hr />
+				<div
+					className="transcript"
+					itemProp="transcript"
+					dangerouslySetInnerHTML={{ __html: post.transcriptHtml }}
+				></div>
+			</React.Fragment>
+		)
 	const classNameOfPost =
 		"episode__entry" + (isFront ? " front-post" : " full-post")
 	return (
@@ -82,6 +95,7 @@ export default function Post({ post, isNew, isSocial, isFull, isFront }) {
 						</a>
 					</p>
 					{description}
+					{transcript}
 				</div>
 			</div>
 			{frontSocial}

@@ -27,7 +27,7 @@ export default function MetaHead({
 		extendedData,
 	})
 	const jsonLDAsString = JSON.stringify(jsonLD)
-	console.log("JSON LD as String", jsonLDAsString)
+	// console.log("JSON LD as String", jsonLDAsString)
 	return (
 		<Head>
 			<title>{headline ? headline : "Pod of Madness"}</title>
