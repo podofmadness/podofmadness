@@ -387,7 +387,7 @@ exports.push([module.i, "/*!\n * Bootstrap v2.3.1\n *\n * Copyright 2012 Twitter
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "body {\n  padding-top: 100px;\n  min-height: 100%;\n  background-blend-mode: luminosity;\n  background-color: black;\n}\n\n.navbar .nav > li > a:hover,\n.navbar .nav > li > a:focus {\n  color: #00ffB4;\n}\n\n#overview.subhead {\n  text-align: center;\n}\n\nheader.jumbotron.subhead {\n  margin-bottom: 20px;\n}\n\n/* the CSS */\n\n.toaster {\n  position: absolute;\n  background: url(https://podofmadness.com/assets/toaster-sprite.gif);\n  width: 64px;\n  height: 64px;\n}\n\na {\n  cursor: pointer !important;\n}\n\n.episode__entry a.title-link {\n  color: inherit;\n  text-decoration: none;\n}\n\n.right {\n  text-align: right;\n}\n\n/**\n * Our image is 256px wide so this rule tells the image to shift\n * to the right the full length of the image.\n */\n\n@-webkit-keyframes flap {\n  from {\n    background-position: 0px;\n  }\n\n  to {\n    background-position: -256px;\n  }\n}\n\n@keyframes flap {\n  from {\n    background-position: 0px;\n  }\n\n  to {\n    background-position: -256px;\n  }\n}\n\n/* This runs the animation named &#39;flap&#39; over a period of 0.4 sec. */\n\n.animated {\n  -webkit-animation: flap 0.4s;\n          animation: flap 0.4s;\n}\n\n.animated {\n  -webkit-animation: flap 0.4s steps(4) infinite alternate;\n          animation: flap 0.4s steps(4) infinite alternate;\n}\n\naudio {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(0.95);\n}\n\n.logo {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(1);\n  width: 140px;\n  overflow: hidden;\n  float: right;\n}\n\n.logo img {\n  width: 100%;\n  height: 100%;\n  transform: scale(0.8);\n}\n\n.row audio {\n  width: 90%;\n}\n\n.pink {\n  color: #f0f;\n}\n\n.fun {\n  display: block;\n  position: relative;\n  float: left;\n  width: 64px;\n  height: 64px;\n  margin: calc(152px - 64px - 64px);\n  margin-top: 32px;\n}\n\n@media (max-width: 979px) {\n  body {\n    padding-top: 0;\n  }\n\n  .glitchButton {\n    display: none !important;\n  }\n\n  #main-menu.nav-collapse.in.collapse {\n    height: -webkit-fit-content !important;\n    height: -moz-fit-content !important;\n    height: fit-content !important;\n  }\n}\n\n@media (max-width: 979px) and (min-width: 768px) {\n  .span2 {\n    display: block;\n    float: left;\n    width: 100%;\n    margin-left: 0;\n    box-sizing: border-box;\n  }\n\n  .main-content div {\n    margin-top: 25px;\n  }\n\n  .main-content div:first-child {\n    margin-top: 0;\n  }\n}\n\n/* Start http://www.cursors-4u.com */\n\n* {\n  cursor: url(\n      https://podofmadness.com/assets/cursor-_1_.png\n    ),\n    auto !important;\n} /* End http://www.cursors-4u.com */\n", "",{"version":3,"sources":["/Users/zuckerscharffa/Dev/podofmadness/styles/user.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,iCAAiC;EACjC,uBAAuB;AACzB;;AAEA;;EAEE,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,mBAAmB;AACrB;;AAEA,YAAY;;AACZ;EACE,kBAAkB;EAClB,mEAAmE;EACnE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,cAAc;EACd,qBAAqB;AACvB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;;;EAGE;;AACF;EACE;IACE,wBAAwB;EAC1B;;EACA;IACE,2BAA2B;EAC7B;AACF;;AAPA;EACE;IACE,wBAAwB;EAC1B;;EACA;IACE,2BAA2B;EAC7B;AACF;;AAEA,2EAA2E;;AAC3E;EACE,4BAAoB;UAApB,oBAAoB;AACtB;;AAEA;EACE,wDAAgD;UAAhD,gDAAgD;AAClD;;AAEA;EACE,sBAAsB;EACtB,4BAA4B;EAC5B,8CAA8C;EAC9C,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;EACtB,4BAA4B;EAC5B,8CAA8C;EAC9C,mBAAmB;EACnB,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,qBAAqB;AACvB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,WAAW;EACX,WAAW;EACX,YAAY;EACZ,iCAAiC;EACjC,gBAAgB;AAClB;;AAEA;EACE;IACE,cAAc;EAChB;;EACA;IACE,wBAAwB;EAC1B;;EACA;IACE,sCAA8B;IAA9B,mCAA8B;IAA9B,8BAA8B;EAChC;AACF;;AAEA;EACE;IACE,cAAc;IACd,WAAW;IACX,WAAW;IACX,cAAc;IAGd,sBAAsB;EACxB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,aAAa;EACf;AACF;;AAEA,oCAAoC;;AACpC;EACE;;;mBAGiB;AACnB,EAAE,kCAAkC","file":"user.css","sourcesContent":["body {\n  padding-top: 100px;\n  min-height: 100%;\n  background-blend-mode: luminosity;\n  background-color: black;\n}\n\n.navbar .nav > li > a:hover,\n.navbar .nav > li > a:focus {\n  color: #00ffB4;\n}\n\n#overview.subhead {\n  text-align: center;\n}\n\nheader.jumbotron.subhead {\n  margin-bottom: 20px;\n}\n\n/* the CSS */\n.toaster {\n  position: absolute;\n  background: url(https://podofmadness.com/assets/toaster-sprite.gif);\n  width: 64px;\n  height: 64px;\n}\n\na {\n  cursor: pointer !important;\n}\n\n.episode__entry a.title-link {\n  color: inherit;\n  text-decoration: none;\n}\n\n.right {\n  text-align: right;\n}\n\n/**\n * Our image is 256px wide so this rule tells the image to shift\n * to the right the full length of the image.\n */\n@keyframes flap {\n  from {\n    background-position: 0px;\n  }\n  to {\n    background-position: -256px;\n  }\n}\n\n/* This runs the animation named &#39;flap&#39; over a period of 0.4 sec. */\n.animated {\n  animation: flap 0.4s;\n}\n\n.animated {\n  animation: flap 0.4s steps(4) infinite alternate;\n}\n\naudio {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(0.95);\n}\n\n.logo {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(1);\n  width: 140px;\n  overflow: hidden;\n  float: right;\n}\n\n.logo img {\n  width: 100%;\n  height: 100%;\n  transform: scale(0.8);\n}\n\n.row audio {\n  width: 90%;\n}\n\n.pink {\n  color: #f0f;\n}\n\n.fun {\n  display: block;\n  position: relative;\n  float: left;\n  width: 64px;\n  height: 64px;\n  margin: calc(152px - 64px - 64px);\n  margin-top: 32px;\n}\n\n@media (max-width: 979px) {\n  body {\n    padding-top: 0;\n  }\n  .glitchButton {\n    display: none !important;\n  }\n  #main-menu.nav-collapse.in.collapse {\n    height: fit-content !important;\n  }\n}\n\n@media (max-width: 979px) and (min-width: 768px) {\n  .span2 {\n    display: block;\n    float: left;\n    width: 100%;\n    margin-left: 0;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n  }\n  \n  .main-content div {\n    margin-top: 25px;\n  }\n\n  .main-content div:first-child {\n    margin-top: 0;\n  }\n}\n\n/* Start http://www.cursors-4u.com */\n* {\n  cursor: url(\n      https://podofmadness.com/assets/cursor-_1_.png\n    ),\n    auto !important;\n} /* End http://www.cursors-4u.com */\n"]}]);
+exports.push([module.i, "body {\n  padding-top: 100px;\n  min-height: 100%;\n  background-blend-mode: luminosity;\n  background-color: black;\n}\n\n.navbar .nav > li > a:hover,\n.navbar .nav > li > a:focus {\n  color: #00ffb4;\n}\n\n#overview.subhead {\n  text-align: center;\n}\n\nheader.jumbotron.subhead {\n  margin-bottom: 20px;\n}\n\n/* the CSS */\n\n.toaster {\n  position: absolute;\n  background: url(https://podofmadness.com/assets/toaster-sprite.gif);\n  width: 64px;\n  height: 64px;\n}\n\na {\n  cursor: pointer !important;\n}\n\n.episode__entry a.title-link {\n  color: inherit;\n  text-decoration: none;\n}\n\n.right {\n  text-align: right;\n}\n\n/**\n * Our image is 256px wide so this rule tells the image to shift\n * to the right the full length of the image.\n */\n\n@-webkit-keyframes flap {\n  from {\n    background-position: 0px;\n  }\n\n  to {\n    background-position: -256px;\n  }\n}\n\n@keyframes flap {\n  from {\n    background-position: 0px;\n  }\n\n  to {\n    background-position: -256px;\n  }\n}\n\n/* This runs the animation named &#39;flap&#39; over a period of 0.4 sec. */\n\n.animated {\n  -webkit-animation: flap 0.4s;\n          animation: flap 0.4s;\n}\n\n.animated {\n  -webkit-animation: flap 0.4s steps(4) infinite alternate;\n          animation: flap 0.4s steps(4) infinite alternate;\n}\n\naudio {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(0.95);\n}\n\n.logo {\n  border: 6px ridge #bbb;\n  background-color: ghostwhite;\n  /*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n  border-radius: 90px;\n  transform: scale(1);\n  width: 140px;\n  overflow: hidden;\n  float: right;\n}\n\n.logo img {\n  width: 100%;\n  height: 100%;\n  transform: scale(0.8);\n}\n\n.row audio {\n  width: 90%;\n}\n\n.pink {\n  color: #f0f;\n}\n\n.fun {\n  display: block;\n  position: relative;\n  float: left;\n  width: 64px;\n  height: 64px;\n  margin: calc(152px - 64px - 64px);\n  margin-top: 32px;\n}\n\n@media (max-width: 979px) {\n  body {\n    padding-top: 0;\n  }\n\n  .glitchButton {\n    display: none !important;\n  }\n\n  #main-menu.nav-collapse.in.collapse {\n    height: -webkit-fit-content !important;\n    height: -moz-fit-content !important;\n    height: fit-content !important;\n  }\n}\n\n@media (max-width: 979px) and (min-width: 768px) {\n  .span2 {\n    display: block;\n    float: left;\n    width: 100%;\n    margin-left: 0;\n    box-sizing: border-box;\n  }\n\n  .main-content div {\n    margin-top: 25px;\n  }\n\n  .main-content div:first-child {\n    margin-top: 0;\n  }\n}\n\n/* Start http://www.cursors-4u.com */\n\n* {\n  cursor: url(https://podofmadness.com/assets/cursor-_1_.png), auto !important;\n} /* End http://www.cursors-4u.com */\n\n.transcript {\n  background-color: rgb(255 228 196 / 58%);\n  color: black;\n  padding: 25px;\n  line-height: 1.4em;\n}\n", "",{"version":3,"sources":["/Users/zuckerscharffa/Dev/podofmadness/styles/user.css"],"names":[],"mappings":"AAAA;EACC,kBAAkB;EAClB,gBAAgB;EAChB,iCAAiC;EACjC,uBAAuB;AACxB;;AAEA;;EAEC,cAAc;AACf;;AAEA;EACC,kBAAkB;AACnB;;AAEA;EACC,mBAAmB;AACpB;;AAEA,YAAY;;AACZ;EACC,kBAAkB;EAClB,mEAAmE;EACnE,WAAW;EACX,YAAY;AACb;;AAEA;EACC,0BAA0B;AAC3B;;AAEA;EACC,cAAc;EACd,qBAAqB;AACtB;;AAEA;EACC,iBAAiB;AAClB;;AAEA;;;EAGE;;AACF;EACC;IACC,wBAAwB;EACzB;;EACA;IACC,2BAA2B;EAC5B;AACD;;AAPA;EACC;IACC,wBAAwB;EACzB;;EACA;IACC,2BAA2B;EAC5B;AACD;;AAEA,2EAA2E;;AAC3E;EACC,4BAAoB;UAApB,oBAAoB;AACrB;;AAEA;EACC,wDAAgD;UAAhD,gDAAgD;AACjD;;AAEA;EACC,sBAAsB;EACtB,4BAA4B;EAC5B,8CAA8C;EAC9C,mBAAmB;EACnB,sBAAsB;AACvB;;AAEA;EACC,sBAAsB;EACtB,4BAA4B;EAC5B,8CAA8C;EAC9C,mBAAmB;EACnB,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,YAAY;AACb;;AAEA;EACC,WAAW;EACX,YAAY;EACZ,qBAAqB;AACtB;;AAEA;EACC,UAAU;AACX;;AAEA;EACC,WAAW;AACZ;;AAEA;EACC,cAAc;EACd,kBAAkB;EAClB,WAAW;EACX,WAAW;EACX,YAAY;EACZ,iCAAiC;EACjC,gBAAgB;AACjB;;AAEA;EACC;IACC,cAAc;EACf;;EACA;IACC,wBAAwB;EACzB;;EACA;IACC,sCAA8B;IAA9B,mCAA8B;IAA9B,8BAA8B;EAC/B;AACD;;AAEA;EACC;IACC,cAAc;IACd,WAAW;IACX,WAAW;IACX,cAAc;IAGd,sBAAsB;EACvB;;EAEA;IACC,gBAAgB;EACjB;;EAEA;IACC,aAAa;EACd;AACD;;AAEA,oCAAoC;;AACpC;EACC,4EAA4E;AAC7E,EAAE,kCAAkC;;AAEpC;EACC,wCAAwC;EACxC,YAAY;EACZ,aAAa;EACb,kBAAkB;AACnB","file":"user.css","sourcesContent":["body {\n\tpadding-top: 100px;\n\tmin-height: 100%;\n\tbackground-blend-mode: luminosity;\n\tbackground-color: black;\n}\n\n.navbar .nav > li > a:hover,\n.navbar .nav > li > a:focus {\n\tcolor: #00ffb4;\n}\n\n#overview.subhead {\n\ttext-align: center;\n}\n\nheader.jumbotron.subhead {\n\tmargin-bottom: 20px;\n}\n\n/* the CSS */\n.toaster {\n\tposition: absolute;\n\tbackground: url(https://podofmadness.com/assets/toaster-sprite.gif);\n\twidth: 64px;\n\theight: 64px;\n}\n\na {\n\tcursor: pointer !important;\n}\n\n.episode__entry a.title-link {\n\tcolor: inherit;\n\ttext-decoration: none;\n}\n\n.right {\n\ttext-align: right;\n}\n\n/**\n * Our image is 256px wide so this rule tells the image to shift\n * to the right the full length of the image.\n */\n@keyframes flap {\n\tfrom {\n\t\tbackground-position: 0px;\n\t}\n\tto {\n\t\tbackground-position: -256px;\n\t}\n}\n\n/* This runs the animation named &#39;flap&#39; over a period of 0.4 sec. */\n.animated {\n\tanimation: flap 0.4s;\n}\n\n.animated {\n\tanimation: flap 0.4s steps(4) infinite alternate;\n}\n\naudio {\n\tborder: 6px ridge #bbb;\n\tbackground-color: ghostwhite;\n\t/*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n\tborder-radius: 90px;\n\ttransform: scale(0.95);\n}\n\n.logo {\n\tborder: 6px ridge #bbb;\n\tbackground-color: ghostwhite;\n\t/*box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);*/\n\tborder-radius: 90px;\n\ttransform: scale(1);\n\twidth: 140px;\n\toverflow: hidden;\n\tfloat: right;\n}\n\n.logo img {\n\twidth: 100%;\n\theight: 100%;\n\ttransform: scale(0.8);\n}\n\n.row audio {\n\twidth: 90%;\n}\n\n.pink {\n\tcolor: #f0f;\n}\n\n.fun {\n\tdisplay: block;\n\tposition: relative;\n\tfloat: left;\n\twidth: 64px;\n\theight: 64px;\n\tmargin: calc(152px - 64px - 64px);\n\tmargin-top: 32px;\n}\n\n@media (max-width: 979px) {\n\tbody {\n\t\tpadding-top: 0;\n\t}\n\t.glitchButton {\n\t\tdisplay: none !important;\n\t}\n\t#main-menu.nav-collapse.in.collapse {\n\t\theight: fit-content !important;\n\t}\n}\n\n@media (max-width: 979px) and (min-width: 768px) {\n\t.span2 {\n\t\tdisplay: block;\n\t\tfloat: left;\n\t\twidth: 100%;\n\t\tmargin-left: 0;\n\t\t-webkit-box-sizing: border-box;\n\t\t-moz-box-sizing: border-box;\n\t\tbox-sizing: border-box;\n\t}\n\n\t.main-content div {\n\t\tmargin-top: 25px;\n\t}\n\n\t.main-content div:first-child {\n\t\tmargin-top: 0;\n\t}\n}\n\n/* Start http://www.cursors-4u.com */\n* {\n\tcursor: url(https://podofmadness.com/assets/cursor-_1_.png), auto !important;\n} /* End http://www.cursors-4u.com */\n\n.transcript {\n\tbackground-color: rgb(255 228 196 / 58%);\n\tcolor: black;\n\tpadding: 25px;\n\tline-height: 1.4em;\n}\n"]}]);
 
 
 /***/ }),
@@ -1387,7 +1387,7 @@ var Router = /*#__PURE__*/function () {
             __N_SSP = routeInfo.__N_SSP;
 
         if (true) {
-          var _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"),
+          var _require = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js"),
               isValidElementType = _require.isValidElementType;
 
           if (!isValidElementType(Component)) {
@@ -1939,219 +1939,10 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
-/***/ "./node_modules/querystring-es3/decode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/decode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-// If obj.hasOwnProperty has been overridden, then calling
-// obj.hasOwnProperty(prop) will break.
-// See: https://github.com/joyent/node/issues/1707
-function hasOwnProperty(obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
-}
-
-module.exports = function(qs, sep, eq, options) {
-  sep = sep || '&';
-  eq = eq || '=';
-  var obj = {};
-
-  if (typeof qs !== 'string' || qs.length === 0) {
-    return obj;
-  }
-
-  var regexp = /\+/g;
-  qs = qs.split(sep);
-
-  var maxKeys = 1000;
-  if (options && typeof options.maxKeys === 'number') {
-    maxKeys = options.maxKeys;
-  }
-
-  var len = qs.length;
-  // maxKeys <= 0 means that we should not limit keys count
-  if (maxKeys > 0 && len > maxKeys) {
-    len = maxKeys;
-  }
-
-  for (var i = 0; i < len; ++i) {
-    var x = qs[i].replace(regexp, '%20'),
-        idx = x.indexOf(eq),
-        kstr, vstr, k, v;
-
-    if (idx >= 0) {
-      kstr = x.substr(0, idx);
-      vstr = x.substr(idx + 1);
-    } else {
-      kstr = x;
-      vstr = '';
-    }
-
-    k = decodeURIComponent(kstr);
-    v = decodeURIComponent(vstr);
-
-    if (!hasOwnProperty(obj, k)) {
-      obj[k] = v;
-    } else if (isArray(obj[k])) {
-      obj[k].push(v);
-    } else {
-      obj[k] = [obj[k], v];
-    }
-  }
-
-  return obj;
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/encode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/encode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-var stringifyPrimitive = function(v) {
-  switch (typeof v) {
-    case 'string':
-      return v;
-
-    case 'boolean':
-      return v ? 'true' : 'false';
-
-    case 'number':
-      return isFinite(v) ? v : '';
-
-    default:
-      return '';
-  }
-};
-
-module.exports = function(obj, sep, eq, name) {
-  sep = sep || '&';
-  eq = eq || '=';
-  if (obj === null) {
-    obj = undefined;
-  }
-
-  if (typeof obj === 'object') {
-    return map(objectKeys(obj), function(k) {
-      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
-      if (isArray(obj[k])) {
-        return map(obj[k], function(v) {
-          return ks + encodeURIComponent(stringifyPrimitive(v));
-        }).join(sep);
-      } else {
-        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
-      }
-    }).join(sep);
-
-  }
-
-  if (!name) return '';
-  return encodeURIComponent(stringifyPrimitive(name)) + eq +
-         encodeURIComponent(stringifyPrimitive(obj));
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-function map (xs, f) {
-  if (xs.map) return xs.map(f);
-  var res = [];
-  for (var i = 0; i < xs.length; i++) {
-    res.push(f(xs[i], i));
-  }
-  return res;
-}
-
-var objectKeys = Object.keys || function (obj) {
-  var res = [];
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
-  }
-  return res;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/querystring-es3/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
-exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
+/***/ "./node_modules/next/node_modules/react-is/cjs/react-is.development.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/next/node_modules/react-is/cjs/react-is.development.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2387,10 +2178,10 @@ exports.isSuspense = isSuspense;
 
 /***/ }),
 
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
+/***/ "./node_modules/next/node_modules/react-is/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/next/node_modules/react-is/index.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2398,8 +2189,217 @@ exports.isSuspense = isSuspense;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/next/node_modules/react-is/cjs/react-is.development.js");
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/querystring-es3/decode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/decode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+// If obj.hasOwnProperty has been overridden, then calling
+// obj.hasOwnProperty(prop) will break.
+// See: https://github.com/joyent/node/issues/1707
+function hasOwnProperty(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+
+module.exports = function(qs, sep, eq, options) {
+  sep = sep || '&';
+  eq = eq || '=';
+  var obj = {};
+
+  if (typeof qs !== 'string' || qs.length === 0) {
+    return obj;
+  }
+
+  var regexp = /\+/g;
+  qs = qs.split(sep);
+
+  var maxKeys = 1000;
+  if (options && typeof options.maxKeys === 'number') {
+    maxKeys = options.maxKeys;
+  }
+
+  var len = qs.length;
+  // maxKeys <= 0 means that we should not limit keys count
+  if (maxKeys > 0 && len > maxKeys) {
+    len = maxKeys;
+  }
+
+  for (var i = 0; i < len; ++i) {
+    var x = qs[i].replace(regexp, '%20'),
+        idx = x.indexOf(eq),
+        kstr, vstr, k, v;
+
+    if (idx >= 0) {
+      kstr = x.substr(0, idx);
+      vstr = x.substr(idx + 1);
+    } else {
+      kstr = x;
+      vstr = '';
+    }
+
+    k = decodeURIComponent(kstr);
+    v = decodeURIComponent(vstr);
+
+    if (!hasOwnProperty(obj, k)) {
+      obj[k] = v;
+    } else if (isArray(obj[k])) {
+      obj[k].push(v);
+    } else {
+      obj[k] = [obj[k], v];
+    }
+  }
+
+  return obj;
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/querystring-es3/encode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/encode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+var stringifyPrimitive = function(v) {
+  switch (typeof v) {
+    case 'string':
+      return v;
+
+    case 'boolean':
+      return v ? 'true' : 'false';
+
+    case 'number':
+      return isFinite(v) ? v : '';
+
+    default:
+      return '';
+  }
+};
+
+module.exports = function(obj, sep, eq, name) {
+  sep = sep || '&';
+  eq = eq || '=';
+  if (obj === null) {
+    obj = undefined;
+  }
+
+  if (typeof obj === 'object') {
+    return map(objectKeys(obj), function(k) {
+      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
+      if (isArray(obj[k])) {
+        return map(obj[k], function(v) {
+          return ks + encodeURIComponent(stringifyPrimitive(v));
+        }).join(sep);
+      } else {
+        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
+      }
+    }).join(sep);
+
+  }
+
+  if (!name) return '';
+  return encodeURIComponent(stringifyPrimitive(name)) + eq +
+         encodeURIComponent(stringifyPrimitive(obj));
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+function map (xs, f) {
+  if (xs.map) return xs.map(f);
+  var res = [];
+  for (var i = 0; i < xs.length; i++) {
+    res.push(f(xs[i], i));
+  }
+  return res;
+}
+
+var objectKeys = Object.keys || function (obj) {
+  var res = [];
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
+  }
+  return res;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/querystring-es3/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/querystring-es3/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
+exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
 
 /***/ }),
