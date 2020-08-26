@@ -4,7 +4,7 @@ export default function SocialPrompt({ tweetUrl }) {
 	return (
 		<>
 			<h4 className="pink">
-				Join the conversation on Twitter for this Episode
+				Join the conversation on Twitter for this episode
 			</h4>
 			<ATweet twitterUrl={tweetUrl} />
 		</>
