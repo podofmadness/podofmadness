@@ -7,7 +7,7 @@ episodeNumber: 1
 season: 1
 contentUrl: https://podofmadness.com/assets/S1E1-PodofMadness.mp3
 localFile: /assets/S1E1-PodofMadness.mp3
-description: 'Jordan interviews Rusty Cundieff, co-writer/co-director of upcoming “Tales From The Hood 3: The Mouths of Babes & Demons”'
+description: 'Jordan interviews Rusty Cundieff, co-writer/co-director of “Tales From The Hood 3: The Mouths of Babes & Demons”'
 socialPrompt: https://twitter.com/podofmadness/status/1297866245824536577
 type: episode
 keywords: horror, tales from the hood, race, Rusty Cundieff, Tales From The Hood 3, podcast

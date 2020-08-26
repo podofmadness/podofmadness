@@ -1,6 +1,6 @@
 ---
 title: "Mother's Day"
-date: "2020-06-10"
+date: 2020-06-10
 type: socialSoundBite
 socialPrompt: https://twitter.com/podofmadness/status/1259558869891788801?ref_src=twsrc%5Etfw
 ---
