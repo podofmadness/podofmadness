@@ -9,7 +9,7 @@
             <link>https://podofmadness.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Oct 2020 23:05:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2020 23:41:51 GMT</lastBuildDate>
         <atom:link href="https://podofmadness.com/feed.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 30 Jun 2020 10:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -41,12 +41,14 @@
             <category><![CDATA[C. Robert Cargill]]></category>
             <category><![CDATA[Full Moon Horror]]></category>
             <category><![CDATA[Puppet Master]]></category>
+            <category><![CDATA[Hellraiser]]></category>
+            <category><![CDATA[Clive Barker]]></category>
             <category><![CDATA[podcast]]></category>
             <dc:creator><![CDATA[Jordan Gass-Poore']]></dc:creator>
             <pubDate>Sat, 31 Oct 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://podofmadness.com/assets/S1E2-PodOfMadness.mp3" length="47286741" type="audio/mpeg"/>
             <itunes:author>Jordan Gass-Poore&apos;</itunes:author>
-            <content:encoded>&lt;p&gt;On this very special episode of Pod of Madness, I co-host the show with my favorite blue monster, Van, from the Austin Public Library’s, The Van Show. We interview Austin-based filmmakers and writers Owen Egerton and C. Robert Cargill.&lt;/p&gt;</content:encoded>
+            <content:encoded>&lt;p&gt;On this very special episode of Pod of Madness, I co-host the show with my favorite blue monster, Van, from Austin Public Library’s, The Van Show. We interview Austin-based filmmakers and writers Owen Egerton and C. Robert Cargill.&lt;/p&gt;</content:encoded>
             <itunes:image href="https://podofmadness.com/assets/pod-of-madness-logo-lg.png"/>
             <itunes:duration>1970</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
