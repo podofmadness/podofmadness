@@ -7,6 +7,7 @@ episodeNumber: 1
 season: 1
 contentUrl: https://podofmadness.com/assets/S1E1-PodofMadness.mp3
 soundcloud: https://soundcloud.com/pod-of-madness/twenty-five-years-later-and-still-haunted-in-the-hood
+youtube: https://www.youtube.com/watch?v=ZRA8dw-uB-s
 localFile: /assets/S1E1-PodofMadness.mp3
 description: 'Jordan interviews Rusty Cundieff, co-writer/co-director of “Tales From The Hood 3: The Mouths of Babes & Demons”'
 socialPrompt: https://twitter.com/podofmadness/status/1297866245824536577
